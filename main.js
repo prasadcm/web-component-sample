@@ -1,6 +1,5 @@
-import Header from "./src/header.js";
-import Router from "./src/router.js";
+import "./src/app/components/app.js";
 
 const root = document.getElementById("root");
-root.append(Header());
-root.append(Router());
+const app_root = document.createElement("app-root");
+root.appendChild(app_root);
